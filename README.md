@@ -1,11 +1,7 @@
 # NanoTnP
 pacakges used for TnP study on nanoaod.
 
-| pacakge | Description |
-| --- | --- |
-| analysis | code for fitting |
-
-
+```
 mkdir CMSDAS2020_TnP
 cd CMSDAS2020_TnP
 cmsrel CMSSW_10_6_4
@@ -16,12 +12,12 @@ git checkout CMSDAS2020
 sh lxplus_setup.sh
 cd NanoTnP/analysis/
 ./scripts/run2018_v1.sh
+```
 
 
 
 
-
-# Samplelist v6
+# Samples used for input ntuples
 ```
 # Run2018 v7
 Samples["EGamma_Run2018A-02Apr2020-v1"]      = {'nanoAOD': '/EGamma/Run2018A-02Apr2020-v1/NANOAOD'}
