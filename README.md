@@ -13,7 +13,8 @@ sh lxplus_setup.sh
 cd NanoTnP/analysis/
 ./scripts/run2018.sh
 ```
-# egm_tnp_analysis
+
+## Quick description
 
 taken from https://github.com/swagata87/egm_tnp_analysis
 
@@ -21,7 +22,6 @@ no compilation is required (this will auto compile the C++ code automatically) b
 
 This can be run on a laptop, does not require cmssw environment (still requires the setup to be run)
 
-## Quick description
 
 On lxplus (do not use cmsenv from cmssw)
 
@@ -31,7 +31,7 @@ Package to handle analysis of tnp trees. The main tool is the python fitter
 
 The interface between the user and the fitter is solely done via the settings file
 
-   ===> etc/config/settings.py
+   ===> analysis/settings/settings.py
    	- set the flags (i.e. Working points) that can be tested
    	- set the different samples and location
 	- set the fitting bins
@@ -42,7 +42,7 @@ Help message:
 >    python tnpEGM_fitter.py --help 
 
 The settings have always to be passed to the fitter
->    python tnpEGM_fitter.py etc/config/settings.py 
+>    python tnpEGM_fitter.py settings/settings.py 
 
 Therefore several "settings.py" files  can be setup (for different run period for instance)
 
