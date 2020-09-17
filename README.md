@@ -11,7 +11,7 @@ git clone git@github.com:arunhep/NanoTnP.git
 git checkout CMSDAS2020
 sh lxplus_setup.sh
 cd NanoTnP/analysis/
-./scripts/run2018_v1.sh
+./scripts/run2018.sh
 ```
 # egm_tnp_analysis
 
