@@ -8,6 +8,7 @@ cmsrel CMSSW_10_6_4
 cd CMSSW_10_6_4/src/
 bash -l
 git clone git@github.com:arunhep/NanoTnP.git
+cd NanoTnP
 git checkout CMSDAS2020
 sh lxplus_setup.sh
 cd NanoTnP/analysis/
