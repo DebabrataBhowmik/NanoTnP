@@ -61,10 +61,10 @@ if not samplesDef['tagSel'] is None: samplesDef['tagSel'].set_weight(weightName)
 ########## bining definition  [can be nD bining]
 #############################################################
 biningDef = [
-    #{ 'var' : 'Probe_eta' , 'type': 'float', 'bins': [ -2.5 , -2.0 , -1.566 , -1.442 , -0.8 , 0.0 , 0.8 , 1.442 , 1.566 , 2.0 , 2.5 ] },
-    { 'var' : 'Probe_eta' , 'type': 'float', 'bins': [ -2.5 , -2.0 ] },
-    #{ 'var' : 'Probe_pt' , 'type': 'float', 'bins': [ 10 , 15 , 20 , 35 , 50 , 90 , 150 , 500 ] },
-    { 'var' : 'Probe_pt' , 'type': 'float', 'bins': [ 35 , 50  ] },
+    { 'var' : 'Probe_eta' , 'type': 'float', 'bins': [ -2.5 , -2.0 , -1.566 , -1.442 , -0.8 , 0.0 , 0.8 , 1.442 , 1.566 , 2.0 , 2.5 ] },
+#    { 'var' : 'Probe_eta' , 'type': 'float', 'bins': [ -2.5 , -2.0 ] },
+    { 'var' : 'Probe_pt' , 'type': 'float', 'bins': [ 10 , 15 , 20 , 35 , 50 , 90 , 150 , 500 ] },
+    #{ 'var' : 'Probe_pt' , 'type': 'float', 'bins': [ 35 , 50  ] },
 ]
 
 #############################################################
