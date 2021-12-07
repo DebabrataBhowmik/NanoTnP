@@ -2,8 +2,8 @@
 pacakges used for TnP study on nanoaod.
 
 ```
-mkdir LPCHATS2021_TnP
-cd LPCHATS2021_TnP
+mkdir LPC_CMSDAS2022_TnP
+cd LPC_CMSDAS2022_TnP
 cmsrel CMSSW_10_6_4
 cd CMSSW_10_6_4/src/
 bash -l
