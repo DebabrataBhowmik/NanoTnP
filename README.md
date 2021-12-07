@@ -7,9 +7,8 @@ cd LPCHATS2021_TnP
 cmsrel CMSSW_10_6_4
 cd CMSSW_10_6_4/src/
 bash -l
-git clone git@github.com:arunhep/NanoTnP.git
+git clone https://github.com/DebabrataBhowmik/NanoTnP.git -b LPC_CMSDAS2022
 cd NanoTnP
-git checkout LPCHATS2021
 sh lxplus_setup.sh
 cd NanoTnP/analysis/
 ./scripts/run2018.sh
