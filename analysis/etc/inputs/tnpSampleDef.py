@@ -13,7 +13,7 @@ nanoV7_16 = '%s/../skim/results/Full2016v7_102X/' % cwd
 nanoV7_17 = '%s/../skim/results/Full2017v7_102X/' % cwd
 #nanoV7_18 = '%s/../skim/results/Full2018v7_102X/' % cwd
 #nanoV7_18 = '/eos/cms/store/group/phys_higgs/cmshww/arun/CMSDAS2020_TnP/'
-nanoV7_18 = '/eos/uscms/store/user/cmsdas/2022/short_exercises/EGamma_ShortExercise/Ex3_Eff_SF/CMSDAS2022_TnP'
+nanoV7_18 = '/eos/uscms/store/user/cmsdas/2022/short_exercises/EGamma_ShortExercise/Ex3_Eff_SF/CMSDAS2022_TnP/'
 
 nanov5_16 = {
     'DYJetsToLL_M-50-LO_ext2' : tnpSample('DYJetsToLL_M-50-LO_ext2',
