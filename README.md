@@ -6,7 +6,7 @@ mkdir LPC_CMSDAS2022_TnP
 cd LPC_CMSDAS2022_TnP
 cmsrel CMSSW_10_6_4
 cd CMSSW_10_6_4/src/
-bash -l
+cmsenv
 git clone https://github.com/DebabrataBhowmik/NanoTnP.git -b LPC_CMSDAS2022
 cd NanoTnP
 sh lxplus_setup.sh
